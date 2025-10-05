@@ -18,9 +18,10 @@ Stay one step ahead. Stay unbreakable. 🔐💻
 - *💻 Lightweight & Fast*  
   Minimal design with maximum performance. No bloat.
 
-- *🛡️ Built for Security Learners*  
+> *🛡️ Built for Security Learners*  
   Perfect tool for cybersecurity students & ethical hackers to understand password flaws.
 
----
+# Instalation Process.....
+  apt update && apt upgrade -y
+  
 
-Chaaho toh "Tech Stack" ya "Usage" section bhi bana deta hoon.
