@@ -39,7 +39,10 @@
 ```bash
 # Clone This Repo
 git clone https://github.com/karndeepbaror/PassForge
-cd PassForge 
+cd PassForge
+
+# Install Packages
+pip install rich colorama pyperclip
 
 # Make script executable
 chmod +x passforge.py
