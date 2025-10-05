@@ -1,5 +1,5 @@
 <h1 align="center" style="color:#00fff7;">
-👩🏻‍💻 PassForge – Pass Checker & Generater Tool
+👩🏻‍💻 PassForge – Python Project 
 </h1>
 
 <p align="center">
