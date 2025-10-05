@@ -4,7 +4,7 @@
 Animated Password Strength Checker
 Author: Karndeep Baror - Ethical Hacker 🇮🇳 
 Terminal Based Password Strength Checker 
-Requires: rich (recommended)
+Requires: pip install rich (recommended)
 """
 
 from getpass import getpass
@@ -251,7 +251,7 @@ def hints_for_improvement(password):
     if not sets["symbol"]:
         hints.append("Add Special Characters (!@#$...).")
     if re.search(r"\s", password):
-        hints.append("Spaces avoid kar unless intentional.")
+        hints.append("Avoid Spaces unless intentional .")
     if any(bad in password.lower() for bad in COMMON_BAD):
         hints.append("Common words/names hatana.")
     return hints
@@ -270,7 +270,7 @@ def main():
     except Exception:
         pw = input("Password (visible): ")
 
-    # Quick fake typing/dots to feel animated (we don't show characters)
+    # Quick typing/dots to feel animated (we don't show characters)
     animated_analysis(duration=1.6)
 
     score, reasons = score_password(pw)
