@@ -18,11 +18,6 @@
 ---
 
 ## 🌌 Features
-Zaroor! Yah lo *cool, clean aur cyber-ethic touch* ke saath features section:
-
----
-
-🔍 Key Features of PassForge
 
 - **⚡ Real-Time Strength Checker** 
   Instantly analyzes your password and gives feedback on its security level.
