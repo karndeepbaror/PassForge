@@ -336,7 +336,7 @@ def main():
             # Accepted: show final note (no file write)
             if USE_RICH:
                 console.print(Panel.fit(f"[bold green]Accepted:[/bold green] {suggested}\n\n(No file saved — copy manually)", border_style="green"))
-                console.print("If you want to re-check this password, we can analyze it now. (y/n)", style="dim")
+                console.print("If You Want to Re-Check This Password, We Can Analyze it Now. (y/n)", style="dim")
                 again = Prompt.ask("Analyze suggested?", choices=["y","n"], default="n")
             else:
                 print("Accepted:", suggested)
@@ -349,7 +349,7 @@ def main():
                 reasons2 = reasons2 + [""] + more2 if more2 else reasons2
                 display_result(suggested, score2, reasons2)
                 if USE_RICH:
-                    console.print("Done. No files written.", style="dim")
+                    console.print("Done. No Files Written.", style="dim")
                 else:
                     print("Done. No files written.")
             # finalize and exit loop
